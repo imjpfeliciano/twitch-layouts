@@ -1,7 +1,9 @@
 import "../styles/globals.css";
-import { Inconsolata } from "@next/font/google";
+import localFont from "@next/font/local";
 
-const inconsolata = Inconsolata();
+const spacemono = localFont({
+  src: "./SpaceMonoNF.ttf",
+});
 
 export default function RootLayout({
   children,
@@ -11,7 +13,7 @@ export default function RootLayout({
   return (
     <html>
       <head />
-      <body className={inconsolata.className}>{children}</body>
+      <body className={spacemono.className}>{children}</body>
     </html>
   );
 }
