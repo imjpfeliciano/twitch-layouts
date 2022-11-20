@@ -1,4 +1,6 @@
 import ProgrammingImage from "public/assets/svg/programming-ending.svg";
+// images obtained from https://undraw.co/illustrations
+// image color: #A4FF63
 
 const DevEndingPage = () => {
   return (
