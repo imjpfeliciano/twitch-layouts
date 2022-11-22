@@ -3,6 +3,7 @@ import localFont from "@next/font/local";
 
 const spacemono = localFont({
   src: "./SpaceMonoNF.ttf",
+  preload: true,
 });
 
 export default function RootLayout({
