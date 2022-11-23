@@ -7,6 +7,10 @@
     src: url('/assets/fonts/SpaceMonoNF.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'SFMono-Regular';
+    src: url('/assets/fonts/SFMonoRegular.otf') format('opentype');
+}
 * {
-    font-family: 'Space Mono NF';
+    font-family: 'SFMono-Regular', 'Space Mono NF';
 }
