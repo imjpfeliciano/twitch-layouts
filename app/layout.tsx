@@ -1,10 +1,4 @@
 import "../styles/globals.css";
-import localFont from "@next/font/local";
-
-const spacemono = localFont({
-  src: "./SpaceMonoNF.ttf",
-  preload: true,
-});
 
 export default function RootLayout({
   children,
@@ -14,7 +8,7 @@ export default function RootLayout({
   return (
     <html>
       <head />
-      <body className={spacemono.className}>{children}</body>
+      <body>{children}</body>
     </html>
   );
 }
