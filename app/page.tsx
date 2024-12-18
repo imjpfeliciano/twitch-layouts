@@ -17,6 +17,11 @@ const HomePage = () => {
                                 Stream ending
                             </Link>
                         </li>
+                        <li>
+                            <Link href="/gaming/ultrawide/fortnite">
+                                Fortnite
+                            </Link>
+                        </li>
                     </ul>
                 </div>
             </div>
