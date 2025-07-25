@@ -1,4 +1,4 @@
-import ProgrammingImage from "public/assets/svg/programming-ending.svg";
+import Image from "next/image";
 // images obtained from https://undraw.co/illustrations
 // image color: #A4FF63
 
@@ -11,7 +11,7 @@ const DevEndingPage = () => {
       </h1>
 
       <div className="flex flex-col items-center h-3/4">
-        <ProgrammingImage />
+        <Image src="/assets/svg/programming-ending.svg" alt="Programming Ending" width={1000} height={1000} />
       </div>
     </div>
   );

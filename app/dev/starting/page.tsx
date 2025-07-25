@@ -1,4 +1,4 @@
-import ProgrammingImage from "public/assets/svg/programming-start.svg";
+import Image from "next/image";
 
 const DevStartingPage = () => {
   return (
@@ -10,8 +10,7 @@ const DevStartingPage = () => {
 
       <div className="flex flex-col items-center justify-center h-3/4">
         <div className="w-1/2">
-
-        <ProgrammingImage className="w-full"/>
+          <Image src="/assets/svg/programming-start.svg" alt="Programming Start" width={1000} height={1000} />
         </div>
       </div>
     </div>
